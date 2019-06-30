@@ -21,6 +21,7 @@
 
 .navbar-item-custom {
   padding: 15px 20px;
+  font-weight: 600;
 }
 
 .navbar-item-custom:hover {
@@ -38,14 +39,29 @@
 
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(20,20,20,0.1)), url('./images/banner-image.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .artist-name {
   font-size: 4em;
+  font-weight: 700;
 }
 
 .tagline {
   margin-top: 50px !important;
+}
+
+.left-scene {
+  height: 100vh;
+  width: 50vw;
+  background-position: center;
+}
+
+.right-scene {
+  height: 100vh;
+  width: 50vw;
+  background-position: center;
 }
 
 
