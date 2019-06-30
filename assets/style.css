@@ -10,6 +10,23 @@
   width: 100vw;
 }
 
+.nav-container {
+  justify-content: space-between;
+}
+
+.navbar-end-custom {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item-custom {
+  padding: 15px 20px;
+}
+
+.navbar-item-custom:hover {
+  color: white;
+}
+
 .logo {
   font-size: 3em;
   color: white;
