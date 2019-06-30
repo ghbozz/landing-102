@@ -4,6 +4,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar {
+  position: fixed;
+  background-color: transparent;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 3em;
+  color: white;
+}
+
+.navbar-item {
+  color: white;
+}
+
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(20,20,20,0.1)), url('./images/banner-image.jpg');
 }
