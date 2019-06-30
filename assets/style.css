@@ -53,15 +53,28 @@
 }
 
 .left-scene {
+  transition: all 1s ease-out;
   height: 100vh;
-  width: 50vw;
-  background-position: center;
+  flex-grow: 1;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .right-scene {
+  transition: all 1s ease-out;
   height: 100vh;
-  width: 50vw;
-  background-position: center;
+  flex-grow: 1;
+  background-position: bottom;
+  background-size: cover;
 }
+
+.right-scene:hover {
+  flex-grow: 3;
+}
+
+.left-scene:hover {
+  flex-grow: 3;
+}
+
 
 
