@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(20,20,20,0.1)), url('./images/banner-image.jpg');
+}
+
+.artist-name {
+  font-size: 4em;
+}
+
+.tagline {
+  margin-top: 50px !important;
+}
+
+
