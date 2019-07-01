@@ -11,6 +11,10 @@
 }
 
 .nav-container {
+  margin: 0 5%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -20,7 +24,7 @@
 }
 
 .navbar-item-custom {
-  padding: 15px 20px;
+  padding: 15px 40px;
   font-weight: 600;
 }
 
@@ -30,20 +34,14 @@
 
 .logo {
   font-size: 3em;
-  color: white;
+  color: black;
 }
 
 .navbar-item {
   color: white;
 }
 
-.banner {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(20,20,20,0.1)), url('./images/banner-image.jpg');
-  background-position: center;
-  background-size: cover;
-}
-
-.artist-name {
+.title {
   font-size: 4em;
   font-weight: 700;
 }
@@ -53,27 +51,26 @@
 }
 
 .left-scene {
-  transition: all 1s ease-out;
+  background-color: white;
   height: 100vh;
-  flex-grow: 1;
-  background-position: bottom;
-  background-size: cover;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
 .right-scene {
-  transition: all 1s ease-out;
-  height: 100vh;
-  flex-grow: 1;
-  background-position: bottom;
+  background-image: url('./images/nightsky.jpg');
+  background-position: center;
   background-size: cover;
+  height: 100vh;
+  width: 65%;
 }
 
-.right-scene:hover {
-  flex-grow: 3;
-}
-
-.left-scene:hover {
-  flex-grow: 3;
+.title-container {
+  width: 60%;
+  text-align: justify;
 }
 
 
