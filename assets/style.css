@@ -24,24 +24,25 @@
 }
 
 .navbar-item-custom {
+  font-size: 1.1em;
   color: rgb(200, 200, 200) !important;
   padding: 15px 60px;
   font-weight: 600;
-  transition: all 1s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .navbar-item-custom:hover {
-  color: white;
-  text-shadow: white 1px 0 20px;
+  color: rgb(245, 245, 245);
+  text-shadow: rgb(245, 245, 245) 1px 0 30px;
 }
 
 .logo {
   font-size: 2em;
-  color: black;
+  color: rgb(35, 35, 35);
 }
 
 .navbar-item {
-  color: white;
+  color: rgb(245, 245, 245);
 }
 
 .title {
@@ -54,13 +55,15 @@
 }
 
 .left-scene {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   height: 100vh;
   width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: rgb(35, 35, 35);
+  border-right: 7px solid #699bff;
+  box-shadow: -1px 2px 10px 5px rgba(0, 0, 0, 0.3) inset;
 }
 
 .right-scene {
@@ -81,10 +84,17 @@
 .btn-main {
   font-size: 2em;
   font-weight: 500;
-  color: black;
-  padding: 5px 15px;
-  border: 2px solid black;
+  color: #699bff;
+  padding: 10px 25px;
+  border: 2px solid #699bff;
   border-radius: 50px;
+  transition: all 0.3s ease-out;
+}
+
+.btn-main:hover {
+  background-color: #699bff;
+  color: rgb(245, 245, 245);
+  border: 2px solid rgb(245, 245, 245);
 }
 
 #rocket {
