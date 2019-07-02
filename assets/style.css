@@ -157,8 +157,8 @@
 }
 
 .star:nth-child(3) {
-  top: calc(50% - -100px);
-  left: calc(50% - 200px);
+  top: calc(50% - 100px);
+  left: calc(50% - 500px);
   animation-delay: 1600ms;
 }
 .star:nth-child(3)::before, .star:nth-child(3)::after {
