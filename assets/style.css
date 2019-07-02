@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.home-wrapper {
+  overflow: hidden;
+}
+
 .navbar {
   position: fixed;
   background-color: transparent;
@@ -125,6 +129,10 @@
 .contact-container {
   z-index: 1;
   padding: 0 200px;
+}
+
+.contact-form {
+  margin-top: 30px;
 }
 
 .control {
