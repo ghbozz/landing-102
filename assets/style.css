@@ -107,7 +107,7 @@
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  transform: rotate(5deg);
+  transform: rotate(-5deg);
 }
 
 
