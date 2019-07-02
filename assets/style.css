@@ -113,7 +113,17 @@
 
 /*CONTACT*/
 
+.contact-section {
+  position: relative;
+}
+
+#clouds {
+  position: absolute;
+  bottom: 0;
+}
+
 .contact-container {
+  z-index: 1;
   padding: 0 200px;
 }
 
