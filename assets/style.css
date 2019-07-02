@@ -24,12 +24,15 @@
 }
 
 .navbar-item-custom {
+  color: rgb(200, 200, 200) !important;
   padding: 15px 60px;
   font-weight: 600;
+  transition: all 1s ease-out;
 }
 
 .navbar-item-custom:hover {
   color: white;
+  text-shadow: white 1px 0 20px;
 }
 
 .logo {
