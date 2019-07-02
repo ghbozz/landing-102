@@ -168,6 +168,36 @@
   left: -280px;
 }
 
+/*ABOUT*/
+
+.about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-container {
+  z-index: 1;
+  padding: 0 200px;
+  padding-top: 50px;
+}
+
+.about-card {
+  background-color: #699bff;
+  padding: 30px;
+  border-radius: 7px;
+  color: white;
+  box-shadow: 0px 5px 5px rgba(20, 20, 20, 0.3);
+}
+
+#rocket-about {
+  width: 100%;
+  position: absolute;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  bottom: -175px;
+  /*transform: rotate(45deg);*/
+}
+
 /*SHOOTING STARS */
 
 .sky-container {
