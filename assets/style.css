@@ -181,20 +181,29 @@
   padding-top: 50px;
 }
 
-.about-card {
-  background-color: #699bff;
+#about-card-1 {
+  width: 40%;
+  height: 350px;
+  background-color: rgba(105,155,255,0.8);
   padding: 30px;
-  border-radius: 7px;
   color: white;
-  box-shadow: 0px 5px 5px rgba(20, 20, 20, 0.3);
+}
+
+#about-card-2 {
+  z-index: 1;
+  width: 60%;
+  height: 350px;
+  background-color: rgba(105,155,255,0.8);
+  padding: 30px;
+  color: white;
 }
 
 #rocket-about {
-  width: 100%;
+  width: 70%;
   position: absolute;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  bottom: -175px;
+  bottom: -120px;
   /*transform: rotate(45deg);*/
 }
 
